@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 600px;
     margin: 0 auto;
 }
 
@@ -20,13 +20,13 @@ body {
 .badge-base__link {
     font-size: 1.5em;
     text-decoration: none;
-    color: #0077b5;
+    color: #0077b5; /* Replace with a color from your LinkedIn profile */
     font-weight: bold;
     transition: color 0.3s ease-in-out;
 }
 
 .badge-base__link:hover {
-    color: #004471;
+    color: #004471; /* Darker shade for hover */
 }
 
 /* About Me Section Styling */
@@ -35,9 +35,9 @@ section {
 }
 
 h2 {
-    color: #333;
+    color: #0077b5; /* Same color as LinkedIn link */
     font-size: 2em;
-    border-bottom: 2px solid #0077b5;
+    border-bottom: 2px solid #004471; /* Darker shade for border */
     padding-bottom: 5px;
 }
 
