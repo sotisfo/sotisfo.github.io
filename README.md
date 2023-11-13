@@ -1,4 +1,3 @@
-# sotisfo.github.io
 - 👋 Hi, I'm @sotisfo, an automotive safety expert passionate about innovation and technology.
 - 👀 Exploring ways to make roads safer with innovative automotive technologies.
 - 🌱 Learning GitHub and diving into the world of AI.
