@@ -1,12 +1,49 @@
-```css
 body {
-font-family: ‘Arial’, sans-serif;
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
 }
 
-    section {
-        margin: 2rem;
-    }
-    ```
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* LinkedIn Badge Styling */
+.badge-base {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.badge-base__link {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #0077b5;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.badge-base__link:hover {
+    color: #004471;
+}
+
+/* About Me Section Styling */
+section {
+    margin-top: 40px;
+}
+
+h2 {
+    color: #333;
+    font-size: 2em;
+    border-bottom: 2px solid #0077b5;
+    padding-bottom: 5px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* Add your additional styling here */
