@@ -14,31 +14,35 @@ body {
 /* LinkedIn Badge Styling */
 .badge-base {
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .badge-base__link {
-    font-size: 1.5em;
+    font-size: 2em;
     text-decoration: none;
-    color: #0077b5;
+    color: #0077b5; /* Replace with a color from your LinkedIn profile */
     font-weight: bold;
     transition: color 0.3s ease-in-out;
 }
 
 .badge-base__link:hover {
-    color: #004471;
+    color: #004471; /* Darker shade for hover */
 }
 
 /* About Me Section Styling */
 section {
     margin-top: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-    color: #333;
-    font-size: 2em;
-    border-bottom: 2px solid #0077b5;
-    padding-bottom: 5px;
+    color: #0077b5; /* Same color as LinkedIn link */
+    font-size: 2.5em;
+    border-bottom: 2px solid #004471; /* Darker shade for border */
+    padding-bottom: 10px;
 }
 
 p {
