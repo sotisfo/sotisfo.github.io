@@ -1,53 +1,73 @@
-body {
-    font-family: 'Helvetica', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f8f8;
-    color: #333;
-}
-
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-/* LinkedIn Badge Styling */
-.badge-base {
-    display: inline-block;
-    margin-top: 50px;
-}
-
-.badge-base__link {
-    font-size: 2em;
-    text-decoration: none;
-    color: #0077b5; /* Replace with a color from your LinkedIn profile */
-    font-weight: bold;
-    transition: color 0.3s ease-in-out;
-}
-
-.badge-base__link:hover {
-    color: #004471; /* Darker shade for hover */
-}
-
-/* About Me Section Styling */
-section {
-    margin-top: 40px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-    color: #0077b5; /* Same color as LinkedIn link */
-    font-size: 2.5em;
-    border-bottom: 2px solid #004471; /* Darker shade for border */
-    padding-bottom: 10px;
-}
-
-p {
-    font-size: 1.2em;
-    line-height: 1.6;
-}
-
-/* Add your additional styling here */
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="dep/normalize.css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="dep/Font-Awesome/css/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <style>
+      /* Add your personalized styles here */
+    </style>
+  </head>
+  <body lang="en">
+    <section id="main">
+      <header id="title">
+        <h1>Sotiris Fotopoulos, MBA</h1>
+        <span class="subtitle">Greater Valladolid Metropolitan Area</span>
+      </header>
+      <section class="main-block">
+        <h2>
+          <i class="fa fa-info-circle"></i> Summary
+        </h2>
+        <div>
+          <p>
+            "The idea that something I create can impact someone across the world now, or in the future is what drives my
+            passion for technology and to try to resolve customer´s problems by providing tailor-made solutions!"
+          </p>
+          <p>
+            Ambitious mechanical engineer, MBA holder. Problem-solver, data analysis believer, conceptualize, design, and
+            develop products or solutions, within systems, application, and simulation transversal activities. Creative mind with
+            out-of-the-box thinking, helps teammates where and when it is needed. Strategic thinker combined with
+            mathematical skills and engineering knowledge are of the abilities led him to create his own career path and be able
+            to focus on key results, being quickly adapted to new insights and teams and conceptualize rapidly.
+          </p>
+          <p>
+            Open to learn new things and take on new challenges.
+          </p>
+        </div>
+      </section>
+      <section class="main-block">
+        <h2>
+          <i class="fa fa-suitcase"></i> Experience
+        </h2>
+        <section class="blocks">
+          <!-- Add your experience details here -->
+        </section>
+      </section>
+    </section>
+    <aside id="sidebar">
+      <div class="side-block" id="contact">
+        <h1>Contact Info</h1>
+        <ul>
+          <li><i class="fa fa-envelope"></i> sotirios.fotopoulos@gmail.com</li>
+          <li><i class="fa fa-phone"></i> +34638983150</li>
+          <li><i class="fa fa-linkedin"></i> linkedin.com/in/sotirisfotopoulos</li>
+        </ul>
+      </div>
+      <div class="side-block" id="skills">
+        <h1>Skills</h1>
+        <ul>
+          <li>Omnipresence</li>
+          <li>Anonymity</li>
+        </ul>
+        <ul>
+          <li>Ordinarity</li>
+          <li>No name rights</li>
+        </ul>
+      </div>
+      <div class="side-block" id="disclaimer">
+        This résumé was wholly typeset with HTML/CSS &mdash; see <code>git.io/vVSYL</code>
+      </div>
+    </aside>
+  </body>
+</html>
